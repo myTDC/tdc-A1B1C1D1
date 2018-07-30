@@ -1,0 +1,23 @@
+{
+  "name": "tdc-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.4.1",
+    "@material/react-text-field": "^0.3.0",
+    "@material/textfield": "^0.37.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-material-components-web": "^0.1.18",
+    "react-responsive-carousel": "^3.1.41",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-swipeable-views": "^0.12.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

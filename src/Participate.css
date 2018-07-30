@@ -1,0 +1,41 @@
+.box{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 2.5px;
+  }
+  
+  #personal{
+    background-color: white;
+    top: 40px;
+    left: 50px;
+    z-index: 1;
+    box-shadow: 0.3px 0.3px 7px #757575;
+  }
+  
+  #startup{
+    background-color: white;
+    top: 25px;
+    left: 25px;
+    z-index: 0;
+    box-shadow: 0.3px 0.3px 7px #fefefe;
+  }
+
+  .part{
+      position: relative;
+      margin-left: 40%;
+      max-width: 25%;
+  }
+
+  .text{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: lighter;
+    font-size: 8pt;
+    text-align: center;
+    min-width: 100%;
+  }
+
+  .progress{
+      min-height: 100%;
+      transform: rotate(90deg);
+  }
