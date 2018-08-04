@@ -61,21 +61,21 @@ class Authenticate extends Component {
             <div style={styles.container}>
               <MuiThemeProvider theme={theme}>
                 <TextField
-                id="with-placeholder"
-                label="Where do we drop you emails?"
-                type="text" name="email"
-                value={this.state.email} onChange={this.handleChange}
-                placeholder="Email ID"
-                style={styles.textField}
-                margin="normal" /> 
+                  id="with-placeholder"
+                  label="Where do we drop you emails?"
+                  type="text" name="email"
+                  value={this.state.email} onChange={this.handleChange}
+                  placeholder="Email ID"
+                  style={styles.textField}
+                  margin="normal" /> 
                 <TextField
-                id="with-placeholder"
-                label="Your Phone" name="number"
-                value={this.state.number} onChange={this.handleChange}
-                type="text" 
-                placeholder="Valid mobile number please"
-                style={styles.textField}
-                margin="normal" /> 
+                  id="with-placeholder"
+                  label="Your Phone" name="number"
+                  value={this.state.number} onChange={this.handleChange}
+                  type="text" 
+                  placeholder="Valid mobile number please"
+                  style={styles.textField}
+                  margin="normal" /> 
               </MuiThemeProvider>  
               <div style={styles.bu}>
               <Button variant="contained" style={styles.button}>
